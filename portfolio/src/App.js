@@ -3,12 +3,14 @@ import Header from "./components/header";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
 
+import './App.css'
+
 function App() {
   return (
     <div className="app">
       <Header/>
-      <About/>
       <Projects/>
+      <About/>
       <Skills/>
     </div>
   );
