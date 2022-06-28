@@ -5,7 +5,7 @@ import Skills from "./components/skills";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header/>
       <About/>
       <Projects/>
