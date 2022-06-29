@@ -37,8 +37,10 @@
   width: 120px;
   height: 50px;
   margin: 40px;
-  background-color: #001F54;
-  background-image: linear-gradient(135deg, #001f54 33%, #034078 66%, #1282a2 100%);
+  background-color: #001933;
+  -webkit-box-shadow: 6px 7px 24px 3px rgba(2,9,15,0.36);
+  -moz-box-shadow: 6px 7px 24px 3px rgba(2,9,15,0.36);
+  box-shadow: 6px 7px 24px 3px rgba(2,9,15,0.36);
 }
 
 .skills {
