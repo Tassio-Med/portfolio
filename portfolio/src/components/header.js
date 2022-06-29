@@ -1,5 +1,6 @@
 import './header.css';
 import Hand from '../gif/peace1.gif'
+import About from './about'
 
 function Header(){
   return(
@@ -7,10 +8,10 @@ function Header(){
       <nav>
         <div class="elem-navigation">
           <li className="projects">
-            <a href="#projects">Meus projetos</a>
+            <a href="#skills">Meus projetos</a>
             </li>
           <li className="about">
-            <a href="#about">Quem sou eu?</a>
+            <a href="#about" data-nav-section="about">Quem sou eu?</a>
           </li>
           <li className="contact">
             <a href="#contact">Fale comigo</a>
