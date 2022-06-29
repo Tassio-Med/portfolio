@@ -1,19 +1,45 @@
+@font-face {
+  font-family: RobotoLight;
+  src: url('../fontes/Roboto/Roboto-Light.ttf');
+}
+
+/* font-family: RobotoLight , Arial , Helvetica , sans-serif; */
+
+
+@font-face {
+  font-family: RobotoThin;
+  src: url('../fontes/Roboto/Roboto-Thin.ttf');
+} 
+
+/* font-family: RobotoThin , Arial , Helvetica , sans-serif; */
+
+@font-face {
+  font-family: RobotoRegular;
+  src: url('../fontes/Roboto/Roboto-Regular.ttf');
+}
+
+/* font-family: RobotoRegular , Arial , Helvetica , sans-serif; */
+
+.skillstitle {
+  margin-top: 90px;
+  font-family: RobotoRegular , Arial , Helvetica , sans-serif;
+  letter-spacing: 0.05em;
+}
+
 li {
   align-items: center;
   border-radius: 10px;
   display: inline-flex;
   flex-wrap: wrap;
+  font-family: RobotoLight , Arial , Helvetica , sans-serif;
+  letter-spacing: 0.05em;
   justify-content: space-around;
-  width: 80px;
+  width: 120px;
   height: 50px;
-  margin: 30px;
+  margin: 40px;
   background-color: #001F54;
 }
 
 .skills {
   margin-top: 5px;
-}
-
-h2 {
-  margin-top: 80px;
 }

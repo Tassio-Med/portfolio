@@ -1,8 +1,35 @@
-h2 {
+@font-face {
+  font-family: RobotoLight;
+  src: url('../fontes/Roboto/Roboto-Light.ttf');
+}
+
+/* font-family: RobotoLight , Arial , Helvetica , sans-serif; */
+
+@font-face {
+  font-family: RobotoThin;
+  src: url('../fontes/Roboto/Roboto-Thin.ttf');
+} 
+
+/* font-family: RobotoThin , Arial , Helvetica , sans-serif; */
+
+@font-face {
+  font-family: RobotoRegular;
+  src: url('../fontes/Roboto/Roboto-Regular.ttf');
+}
+
+/* font-family: RobotoRegular , Arial , Helvetica , sans-serif; */
+
+.abouttitle {
   margin-top: 90px;
+  font-family: RobotoRegular , Arial , Helvetica , sans-serif;
+  letter-spacing: 0.05em;
+
 }
 
 p {
   text-align: justify;
-  margin: 90px 90px 90px 40px;
+  margin: 40px 90px 90px 40px;
+  font-family: RobotoLight , Arial , Helvetica , sans-serif;
+  letter-spacing: 0.05em;
+
 }
