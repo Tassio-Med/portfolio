@@ -2,7 +2,7 @@ import './projects.css';
 
 function Projects(){
   return(
-    <div>
+    <div id="projects">
       <li className="project1">
         <h3 >Projeto 1</h3>
       </li>

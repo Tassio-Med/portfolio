@@ -12,6 +12,10 @@
 
 /* font-family: RobotoRegular , Arial , Helvetica , sans-serif; */
 
+.projects {
+  z-index:2;
+}
+
 .project1, .project2, .project3 {
   align-items: center;
   border-radius: 25px;
