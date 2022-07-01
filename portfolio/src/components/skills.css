@@ -26,22 +26,34 @@
   letter-spacing: 0.05em;
 }
 
-.html, .css, .js, .jest, .react, .redux {
+.git, .github, .js, .html5, .react, .css,
+.jest, .redux, .hooks, .unix, .bash, .firebase, .animation{
   align-items: center;
   border-radius: 10px;
   display: inline-flex;
   flex-wrap: wrap;
   font-family: RobotoLight , Arial , Helvetica , sans-serif;
-  letter-spacing: 0.05em;
+  /* letter-spacing: 0.05em; */
   justify-content: space-around;
   width: 120px;
   height: 50px;
-  margin: 40px;
+  margin: 30px;
   background-color: #001933;
   -webkit-box-shadow: 6px 7px 24px 3px rgba(2,9,15,0.36);
   -moz-box-shadow: 6px 7px 24px 3px rgba(2,9,15,0.36);
   box-shadow: 6px 7px 24px 3px rgba(2,9,15,0.36);
+  cursor: pointer;
+  transition: 0.4s;
 }
+
+.animation:hover {
+  box-shadow: 7px 5px 56px -14px #114477;
+}
+
+.animation:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #114477;
+ }
 
 .skills {
   margin-top: 5px;
