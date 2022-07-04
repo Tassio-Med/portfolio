@@ -19,15 +19,25 @@
 
 /* font-family: RobotoRegular , Arial , Helvetica , sans-serif; */
 
+.divabout {
+  padding: 25px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  align-content: center
+  /* width: 100%; */
+}
+
 .abouttitle {
   /* text-align: justify; */
-  margin-top: 90px;
+  /* margin-top: 90px; */
   font-family: RobotoRegular , Arial , Helvetica , sans-serif;
   letter-spacing: 0.05em;
-
+  
 }
 
 p {
+  margin: 30px;
   /* text-align: justify; */
   /* margin: 40px 90px 90px 40px; */
   font-family: RobotoLight , Arial , Helvetica , sans-serif;
