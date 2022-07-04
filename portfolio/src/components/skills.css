@@ -20,8 +20,12 @@
 
 /* font-family: RobotoRegular , Arial , Helvetica , sans-serif; */
 
+.divskills {
+  padding: 25px;
+}
+
 .skillstitle {
-  margin-top: 90px;
+  /* margin-top: 90px; */
   font-family: RobotoRegular , Arial , Helvetica , sans-serif;
   letter-spacing: 0.05em;
 }
@@ -30,14 +34,13 @@
 .jest, .redux, .hooks, .unix, .bash, .firebase, .animation{
   align-items: center;
   border-radius: 10px;
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: flex;
+  flex-wrap: nowrap;
   font-family: RobotoLight , Arial , Helvetica , sans-serif;
-  /* letter-spacing: 0.05em; */
-  justify-content: space-around;
+  justify-content: center;
   width: 120px;
   height: 50px;
-  margin: 30px;
+  margin: 25px;
   background-color: #001933;
   -webkit-box-shadow: 6px 7px 24px 3px rgba(2,9,15,0.36);
   -moz-box-shadow: 6px 7px 24px 3px rgba(2,9,15,0.36);
@@ -55,6 +58,10 @@
   box-shadow: 7px 5px 56px -10px #114477;
  }
 
-.skills {
-  margin-top: 5px;
+.skillslist {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 30px 0px;
 }
