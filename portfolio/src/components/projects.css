@@ -32,6 +32,8 @@
   width: 300px;
   height: 400px;
   margin: 50px;
+  border: 10px;
+  border-color: #001933;
   background-color: #001933;
   -webkit-box-shadow: 6px 7px 24px 3px rgba(2,9,15,0.36);
   -moz-box-shadow: 6px 7px 24px 3px rgba(2,9,15,0.36);
@@ -42,4 +44,26 @@
 .grow-card:hover {
   opacity: 0.8;
   transform: scale(1.10);
+}
+
+h3 {
+  z-index: 1;
+  color: #001933;
+}
+
+.project1 {
+  background-image: url('../images/todolist.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.project2 {
+  background-image: url('../images/pixel-art.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+.project3 {
+  background-image: url('../images/trybewarts.jpeg');
+  background-position: center left;
+  background-size: cover;
 }

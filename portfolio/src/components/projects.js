@@ -1,4 +1,5 @@
 import './projects.css';
+import Image from '../images/todolist.jpg';
 
 function Projects(){
   return(
