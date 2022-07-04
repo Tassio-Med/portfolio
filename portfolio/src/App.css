@@ -3,5 +3,9 @@
   background-color: #001021;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 
 

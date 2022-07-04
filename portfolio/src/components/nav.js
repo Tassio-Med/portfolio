@@ -4,7 +4,7 @@ function Nav(){
   return(
     <nav>
         <div class="elem-navigation">
-          <li className="projects">
+          <li className="projectsnav">
             <a href="#projects">Meus projetos</a>
             </li>
           <li className="about">
